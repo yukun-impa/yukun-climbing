@@ -6,7 +6,10 @@ const CONFIG = {
     role: "climber",
     bio: "I'm a sport climber living in Xi'An",
     email: "zhaoyukun1999@gmail.com",
-    github: "yukun-impa",
+    github: "",
+    linkedin: "",
+    instagram: "",
+
   },
   projects: [
     {
