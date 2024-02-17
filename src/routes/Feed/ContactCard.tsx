@@ -1,10 +1,8 @@
 import { CONFIG } from "site.config"
 import React from "react"
 import {
-  AiOutlineInstagram,
   AiOutlineGithub,
   AiOutlineMail,
-  AiFillLinkedin,
 } from "react-icons/ai"
 import styled from "@emotion/styled"
 
@@ -23,16 +21,6 @@ const ContactCard: React.FC = () => {
             <div className="name">github</div>
           </a>
         )}
-        {CONFIG.profile.instagram && (
-          <a
-            href={`https://www.instagram.com/${CONFIG.profile.instagram}`}
-            rel="noreferrer"
-            target="_blank"
-          >
-            <AiOutlineInstagram className="icon" />
-            <div className="name">instagram</div>
-          </a>
-        )}
         {CONFIG.profile.email && (
           <a
             href={`mailto:${CONFIG.profile.email}`}
@@ -42,16 +30,6 @@ const ContactCard: React.FC = () => {
           >
             <AiOutlineMail className="icon" />
             <div className="name">email</div>
-          </a>
-        )}
-        {CONFIG.profile.linkedin && (
-          <a
-            href={`https://www.linkedin.com/in/${CONFIG.profile.linkedin}`}
-            rel="noreferrer"
-            target="_blank"
-          >
-            <AiFillLinkedin className="icon" />
-            <div className="name">linkedin</div>
           </a>
         )}
       </StyledWrapper>
