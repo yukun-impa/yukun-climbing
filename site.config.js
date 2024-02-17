@@ -7,8 +7,6 @@ const CONFIG = {
     bio: "I'm a sport climber living in Xi'An",
     email: "zhaoyukun1999@gmail.com",
     github: "yukun-impa",
-    linkedin: "yukun",
-    instagram: "yukun",
   },
   projects: [
     {
